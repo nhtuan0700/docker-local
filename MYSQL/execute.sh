@@ -1,0 +1,1 @@
+docker run -it --name test-mysql -p 3307:3306 -v test-docker_mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql
