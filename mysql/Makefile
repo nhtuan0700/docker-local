@@ -8,7 +8,7 @@ mysql-up:
 	${DKC} up -d
 
 mysql-down:
-	${DKC} down -d
+	${DKC} down
 
 mysql-bash:
 	$(RUN_CONTAINER)
