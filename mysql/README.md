@@ -5,3 +5,4 @@ If you need to configure mysql, you need to follow step by step:
 2. In `.docker/Dockerfile`
 - add `COPY ./my/config/my.conf /etc/mysql/conf.d/my.conf`
 3. Run `docker compose up -d --build`
+a
